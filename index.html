@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PizzaThesBassist-Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Top Page</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">My Pages</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Write Smt</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Random Stuff</a>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="maia/myt.gif" style="width:30%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3></h3>
+      <p><b></b></p>   
+    </div>
+  </div>
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">PizzaThesBassist/Moartea_yt</h2>
+    <p class="w3-opacity"><i>Devil may stay until the world will live again <br>
+      Death is not timed - you better live it while you can</i></p>
+    <h2>imagine actually seeing this Page</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p></p>
+      </div>
+      <div class="w3-third">
+        <p></p>
+      </div>
+      <div class="w3-third">
+        <p></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center"></h2>
+      <p class="w3-opacity w3-center"><i></i></p><br>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b></b></p>
+            <p class="w3-opacity"></p>
+            <a href="https://www.youtube.com/channel/UCBpLuTtLOKZ5RMc3Zlex7GQ"><ol>
+            <button class="w3-button w3-black w3-margin-bottom">YouTube</button></a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b></b></p>
+            <p class="w3-opacity"></p>
+            <a href="https://www.instagram.com/pizza_the_bassist/?hl=en"><ol>
+            <button class="w3-button w3-black w3-margin-bottom">instagram</button></a>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b></b></p>
+            <p class="w3-opacity"></p>
+            <a href="https://www.facebook.com/Moartea-1522483247826264/"><ol>
+            <button class="w3-button w3-black w3-margin-bottom">Facebook</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">Wanna Chat?</h2>
+    <p class="w3-opacity w3-center"><i>What u Thinking?</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i>EU<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: no need<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">Send It Bro</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<img src= class="w3-image w3-greyscale-min" style="width:100%">
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by Myself</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
